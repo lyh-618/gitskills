@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	printf("hello world\n");
+	printf("请输入2个数字：");
+	int a,b;
+	scanf("%d%d",&a,&b); 
+	printf("%d\n%d\n%d\n",a,b,a+b);
+	return 0;
+}
